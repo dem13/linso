@@ -13,7 +13,7 @@
                 <b-input name="desc" maxlength="5000" type="textarea" :value="desc"></b-input>
             </b-field>
 
-            <b-button native-type="submit" type="is-success">Create</b-button>
+            <b-button native-type="submit" type="is-success">Save</b-button>
         </form>
     </div>
 </template>

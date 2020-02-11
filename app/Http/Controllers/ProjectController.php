@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ProjectRequest;
 use App\Models\Project;
 use App\Repositories\ProjectRepository;
-use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class ProjectController extends Controller
@@ -72,24 +71,32 @@ class ProjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Project  $project
+     * @param \App\Models\Project $project
      * @return Response
+     * @throws \Illuminate\Auth\Access\AuthorizationException
      */
     public function edit(Project $project)
     {
-        //
+        $this->authorize('update-project', $project);
+
+        return view('project.edit', compact('project'));
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Project  $project
-     * @return Response
+     * @param ProjectRequest $request
+     * @param \App\Models\Project $project
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Illuminate\Auth\Access\AuthorizationException
      */
-    public function update(Request $request, Project $project)
+    public function update(ProjectRequest $request, Project $project)
     {
-        //
+        $this->authorize('update-project', $project);
+
+        $this->projectRepo->edit($project, $request->all());
+
+        return redirect()->route('project.edit', ['project' => $project->id]);
     }
 
     /**

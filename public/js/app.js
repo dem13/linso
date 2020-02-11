@@ -6691,11 +6691,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Button = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -6990,11 +6990,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Carousel = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -7073,11 +7073,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var CarouselItem = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -7315,11 +7315,11 @@ var __vue_staticRenderFns__$2 = [];
   /* functional template */
   const __vue_is_functional_template__$2 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var CarouselList = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__$2, staticRenderFns: __vue_staticRenderFns__$2 },
     __vue_inject_styles__$2,
@@ -7412,11 +7412,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var CheckboxButton = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -8787,11 +8787,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Autocomplete = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -9042,11 +9042,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Tooltip = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -9360,11 +9360,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Icon = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -9585,11 +9585,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Input = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -9654,11 +9654,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Checkbox = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -9976,11 +9976,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var DatepickerTableRow = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -10237,11 +10237,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var DatepickerTable = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -10506,11 +10506,11 @@ var __vue_staticRenderFns__$2 = [];
   /* functional template */
   const __vue_is_functional_template__$2 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var DatepickerMonth = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__$2, staticRenderFns: __vue_staticRenderFns__$2 },
     __vue_inject_styles__$2,
@@ -11059,11 +11059,11 @@ var __vue_staticRenderFns__$3 = [];
   /* functional template */
   const __vue_is_functional_template__$3 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Datepicker = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__$3, staticRenderFns: __vue_staticRenderFns__$3 },
     __vue_inject_styles__$3,
@@ -11319,11 +11319,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Modal = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -11425,11 +11425,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var PaginationButton = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -11681,11 +11681,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Pagination = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -11774,11 +11774,11 @@ const __vue_script__ = script;
   /* functional template */
   const __vue_is_functional_template__ = undefined;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var FieldBody = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     {},
     __vue_inject_styles__,
@@ -11979,11 +11979,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Field = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__$1,
@@ -12354,11 +12354,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Tag = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -12464,11 +12464,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Select = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -12905,11 +12905,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Dropdown = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -13030,11 +13030,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var DropdownItem = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -13112,11 +13112,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Timepicker = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -13454,11 +13454,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var ClockpickerFace = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -13585,11 +13585,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Clockpicker = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -13714,11 +13714,11 @@ const __vue_script__ = script;
   /* functional template */
   const __vue_is_functional_template__ = undefined;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Collapse = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     {},
     __vue_inject_styles__,
@@ -14039,11 +14039,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Datetimepicker = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -14282,11 +14282,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Dialog = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -15106,11 +15106,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Loading = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -15213,11 +15213,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Menu = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -15283,11 +15283,11 @@ const __vue_script__$1 = script$1;
   /* functional template */
   const __vue_is_functional_template__$1 = undefined;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var MenuList = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     {},
     __vue_inject_styles__$1,
@@ -15397,11 +15397,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$2 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var MenuItem = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$2,
@@ -15481,11 +15481,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Message = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -15639,11 +15639,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var NavbarBurger = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -16007,11 +16007,11 @@ const __vue_script__$1 = script$1;
   /* functional template */
   const __vue_is_functional_template__$1 = undefined;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Navbar = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     {},
     __vue_inject_styles__$1,
@@ -16110,11 +16110,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$2 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var NavbarItem = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$2,
@@ -16190,11 +16190,11 @@ var __vue_staticRenderFns__$2 = [];
   /* functional template */
   const __vue_is_functional_template__$3 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var NavbarDropdown = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_1__["_"])(
     { render: __vue_render__$2, staticRenderFns: __vue_staticRenderFns__$2 },
     __vue_inject_styles__$3,
@@ -16277,11 +16277,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Notification = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -16326,11 +16326,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var NotificationNotice = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -16573,11 +16573,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Numberinput = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -16775,11 +16775,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Progress = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -16842,11 +16842,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Radio = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -16895,11 +16895,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var RadioButton = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -17055,11 +17055,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Rate = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -17323,11 +17323,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var SliderThumb = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -17398,11 +17398,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var SliderTick = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -17645,11 +17645,11 @@ var __vue_staticRenderFns__$2 = [];
   /* functional template */
   const __vue_is_functional_template__$2 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Slider = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__$2, staticRenderFns: __vue_staticRenderFns__$2 },
     __vue_inject_styles__$2,
@@ -17748,11 +17748,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Snackbar = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -18058,11 +18058,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Steps = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -18180,11 +18180,11 @@ const __vue_script__$1 = script$1;
   /* functional template */
   const __vue_is_functional_template__$1 = undefined;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var StepItem = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     {},
     __vue_inject_styles__$1,
@@ -18336,11 +18336,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Switch = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -18466,11 +18466,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var TableMobileSort = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -18575,11 +18575,11 @@ var __vue_staticRenderFns__$1 = [];
   /* functional template */
   const __vue_is_functional_template__$1 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var TableColumn = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
     __vue_inject_styles__$1,
@@ -19341,11 +19341,11 @@ var __vue_staticRenderFns__$2 = [];
   /* functional template */
   const __vue_is_functional_template__$2 = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Table = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__$2, staticRenderFns: __vue_staticRenderFns__$2 },
     __vue_inject_styles__$2,
@@ -19516,11 +19516,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Tabs = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -19632,11 +19632,11 @@ const __vue_script__$1 = script$1;
   /* functional template */
   const __vue_is_functional_template__$1 = undefined;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var TabItem = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_4__["_"])(
     {},
     __vue_inject_styles__$1,
@@ -19709,11 +19709,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Taglist = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_0__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -20040,11 +20040,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Taginput = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_5__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -20168,11 +20168,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Toast = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_3__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -20454,11 +20454,11 @@ var __vue_staticRenderFns__ = [];
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var Upload = Object(_chunk_cca88db8_js__WEBPACK_IMPORTED_MODULE_2__["_"])(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
@@ -51600,7 +51600,7 @@ function addStyle (obj, options) {
 	// If a transform function was defined, run it on the css
 	if (options.transform && obj.css) {
 	    result = typeof options.transform === 'function'
-		 ? options.transform(obj.css) 
+		 ? options.transform(obj.css)
 		 : options.transform.default(obj.css);
 
 	    if (result) {
@@ -52034,7 +52034,7 @@ var render = function() {
         _c(
           "b-button",
           { attrs: { "native-type": "submit", type: "is-success" } },
-          [_vm._v("Create")]
+            [_vm._v("Save")]
         )
       ],
       1
@@ -64319,7 +64319,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -64339,7 +64339,7 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 /***/ }),
 
@@ -64388,7 +64388,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   null,
   "77326505",
   null
-  
+
 )
 
 /* hot reload */
@@ -64408,7 +64408,7 @@ component.options.__file = "resources/js/components/Project/Form.vue"
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Form.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Project/Form.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 /***/ }),
 

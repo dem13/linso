@@ -3,7 +3,6 @@
 namespace App\Repositories;
 
 use App\Models\Project;
-use App\User;
 
 class ProjectRepository
 {
@@ -25,5 +24,19 @@ class ProjectRepository
         $project->save();
 
         return $project;
+    }
+
+    /**
+     * Edit project
+     *
+     * @param Project $project
+     * @param array $data
+     * @return bool
+     */
+    public function edit(Project $project, array $data)
+    {
+        $project->fill($data);
+
+        return $project->save();
     }
 }
