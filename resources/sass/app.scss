@@ -1,8 +1,81 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
+//Lib
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Set your colors
+//$white: #282828;
+//$white-bis: #303030;
+//$white-ter: #353535;
+//
+//$black: #ffffff;
+//$black-ter: #fefefe;
+//$grey-dark: #fcfcfc;
+//$grey-darker: #fbfbfb;
+//
+//$text: $black-ter;
+//$text-strong: $black;
+//
+
+$scheme-main: #111111;
+
+
+$primary-invert: #ffffff;
+$primary: #de4c4a;
+$twitter: #4099FF;
+$twitter-invert: findColorInvert($twitter);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+    "twitter": ($twitter, $twitter-invert)
+);
+
+//Background
+$background: $scheme-main;
+$body-background-color: $background;
+
+//Text
+$text: rgba(255, 255, 255, 0.87);
+$text-strong: #ffffff;
+
+$shadow: rgba(0, 0, 0,);
+
+//Card
+$card-background-color: $scheme-main;
+$card-shadow: 0 0.5em 1em -0.125em rgba($shadow, 0.2), 0 0px 0 1px rgba($shadow, 0.1);
+
+$label-color: $text;
+
+$input-color: $text;
+$input-background-color: $scheme-main;
+
+
+// Links
+$link: $primary;
+$link-hover: $primary-invert;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+//Navbar
+$navbar-background-color: #00ff00;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+
+.linso {
+    margin-top: -150px;
+}

@@ -19,13 +19,18 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-require('buefy/dist/buefy.css');
+// require('buefy/dist/buefy.css');
+
+require('@mdi/font/css/materialdesignicons.min.css');
 
 Vue.use(require('buefy'));
 
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('project-form', require('./components/Project/Form.vue').default);
+Vue.component('navbar', require('./components/Navbar').default);
+Vue.component('login-form', require('./components/Auth/LoginForm').default);
+Vue.component('dashboard-menu', require('./components/Dashboard/Menu').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
