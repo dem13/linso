@@ -2203,7 +2203,8 @@ __webpack_require__.r(__webpack_exports__);
             }
         });
 
-        /***/ }),
+        /***/
+    }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Project/Form.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************!*\
@@ -16332,7 +16333,8 @@ function toComment(sourceMap) {
         }
 
 
-        /***/ }),
+        /***/
+    }),
 
 /***/ "./node_modules/jquery/dist/jquery.js":
 /*!********************************************!*\
@@ -47795,10 +47797,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                             [
                                 _c("b-input", {
                                     attrs: {
+                                        icon: "email",
                                         name: "email",
                                         placeholder: "Email",
-                                        type: "email",
-                                        icon: "email"
+                                        type: "email"
                                     }
                                 })
                             ],
@@ -47812,8 +47814,8 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                                 _c("b-input", {
                                     attrs: {
                                         name: "password",
-                                        type: "password",
-                                        "password-reveal": ""
+                                        "password-reveal": "",
+                                        type: "password"
                                     }
                                 })
                             ],
@@ -47826,9 +47828,9 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                             [
                                 _c("b-switch", {
                                     attrs: {
+                                        "false-value": "No",
                                         name: "remember",
-                                        "true-value": "Yes",
-                                        "false-value": "No"
+                                        "true-value": "Yes"
                                     }
                                 })
                             ],
@@ -60658,7 +60660,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
         });
 
 
-        /***/ }),
+        /***/
+    }),
 
 /***/ "./resources/js/components/ExampleComponent.vue":
 /*!******************************************************!*\
@@ -60839,7 +60842,8 @@ __webpack_require__.r(__webpack_exports__);
         });
 
 
-        /***/ }),
+        /***/
+    }),
 
 /***/ "./resources/js/components/Project/Form.vue":
 /*!**************************************************!*\
