@@ -30,6 +30,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('project-form', require('./components/Project/Form.vue').default);
 Vue.component('navbar', require('./components/Navbar').default);
 Vue.component('login-form', require('./components/Auth/LoginForm').default);
+Vue.component('register-form', require('./components/Auth/RegisterForm').default);
 Vue.component('dashboard-menu', require('./components/Dashboard/Menu').default);
 
 /**
