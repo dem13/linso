@@ -77,5 +77,33 @@ $navbar-background-color: #00ff00;
 
 
 .linso {
-    margin-top: -150px;
+    text-align: center;
+
+    .linso__image {
+        img {
+            width: 60%;
+        }
+    }
+
+    .linso__title {
+        h1 {
+            color: $primary;
+            text-shadow: 0 0 10px rgba($primary, 1);
+        }
+
+        .linso__desc {
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid $primary;
+        }
+
+        .linso__signup {
+            justify-content: center;
+            align-items: center;
+
+            div {
+                padding-right: 5px;
+            }
+        }
+    }
 }

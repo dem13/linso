@@ -17303,6 +17303,30 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .linso {
-    margin-top: -150px;
+    text-align: center;
+}
+
+.linso .linso__image img {
+    width: 60%;
+}
+
+.linso .linso__title h1 {
+    color: #de4c4a;
+    text-shadow: 0 0 10px #de4c4a;
+}
+
+.linso .linso__title .linso__desc {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #de4c4a;
+}
+
+.linso .linso__title .linso__signup {
+    justify-content: center;
+    align-items: center;
+}
+
+.linso .linso__title .linso__signup div {
+    padding-right: 5px;
 }
 
