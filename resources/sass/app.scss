@@ -56,6 +56,10 @@ $shadow: rgba(0, 0, 0,);
 $card-background-color: $scheme-main;
 $card-shadow: 0 0.5em 1em -0.125em rgba($shadow, 0.2), 0 0px 0 1px rgba($shadow, 0.1);
 
+//Box
+$box-background-color: $scheme-main;
+$box-shadow: 0 0.5em 1em -0.125em rgba($shadow, 0.2), 0 0px 0 1px rgba($shadow, 0.1);
+
 $label-color: $text;
 
 $input-color: $text;

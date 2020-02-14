@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Models\Project;
+use App\User;
 
 class ProjectRepository
 {
@@ -38,5 +39,25 @@ class ProjectRepository
         $project->fill($data);
 
         return $project->save();
+    }
+
+    /**
+     * @param User $user
+     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
+     */
+    public function getByUser(User $user)
+    {
+        return $user
+            ->projects()
+            ->orderBy('created_at', 'desc')
+            ->paginate($this->getPerPage());
+    }
+
+    /**
+     * @return int
+     */
+    private function getPerPage()
+    {
+        return 10;
     }
 }

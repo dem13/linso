@@ -31,7 +31,8 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        $projects = $this->projectRepo->getByUser(auth()->user());
+        return view('project.index', compact('projects'));
     }
 
     /**
