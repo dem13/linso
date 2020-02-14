@@ -32,7 +32,7 @@
 <div id="app" class="is-dark">
     <navbar guest="{{ auth()->guest() }}" @if(auth()->check()) username="{{ auth()->user()->name }}" @endif></navbar>
 
-    <div class="container">
+    <div class="container main">
         @section('main')
             <div class="columns">
                 <div class="column">
@@ -40,7 +40,7 @@
                         <dashboard-menu></dashboard-menu>
                     @endauth
                 </div>
-                <div class="column is-three-fifths">
+                <div class="column is-three-fifths content-section">
                     <div class="section">
                         @section('content')
 
@@ -53,6 +53,14 @@
             </div>
         @show
     </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Linso</strong> by <a href="#">Demian Avtamonov</a>.
+            </p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

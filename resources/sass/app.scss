@@ -21,6 +21,7 @@
 //
 
 $scheme-main: #111111;
+$scheme-secondary: #070707;
 $scheme-invert: findColorInvert($scheme-main);
 
 
@@ -78,10 +79,25 @@ $navbar-dropdown-background-color: $scheme-main;
 $navbar-dropdown-border-top: 2px solid $primary;
 $navbar-dropdown-item-hover-color: $scheme-invert;
 
+//Footer
+$footer-background-color: $scheme-secondary;
+$footer-color: $text;
+
 // Import Bulma and Buefy styles
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
+html, body, #app, .main, .main > .columns {
+    height: 100%;
+}
+
+.content-section {
+    min-height: 100%;
+}
+
+footer {
+    border-top: 2px solid $primary;
+}
 
 .linso {
     text-align: center;
@@ -118,4 +134,8 @@ $navbar-dropdown-item-hover-color: $scheme-invert;
             }
         }
     }
+}
+
+.content-section {
+    background: $scheme-secondary;
 }

@@ -12186,8 +12186,9 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: #fafafa;
+    background-color: #070707;
   padding: 3rem 1.5rem 6rem;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 .is-noscroll {
@@ -17302,6 +17303,22 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   }
 }
 
+html,
+body,
+#app,
+.main,
+.main > .columns {
+    height: 100%;
+}
+
+.content-section {
+    min-height: 100%;
+}
+
+footer {
+    border-top: 2px solid #de4c4a;
+}
+
 .linso {
   text-align: center;
     margin-top: 20px;
@@ -17333,5 +17350,9 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .linso .linso__title .linso__signup div {
   padding-right: 5px;
+}
+
+.content-section {
+    background: #070707;
 }
 
