@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
+@section('main')
     <div class="linso">
         <div class="linso__image">
             <img src="{{ asset('img/logo/logo_main.png') }}" alt="">
@@ -8,7 +8,7 @@
         <div class="linso__title ">
             <h1 class="is-size-1">Linso</h1>
             <div class="is-size-5 linso__desc">
-                Created to help you develop and maintain your apps
+                <span>Created to help you develop and maintain your apps</span>
             </div>
             <div class="linso__signup is-flex">
                 <div>

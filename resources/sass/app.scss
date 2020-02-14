@@ -85,10 +85,12 @@ $navbar-dropdown-item-hover-color: $scheme-invert;
 
 .linso {
     text-align: center;
+    margin-top: 20px;
 
     .linso__image {
         img {
-            width: 60%;
+            width: 70%;
+            max-width: 400px;
         }
     }
 
@@ -100,8 +102,11 @@ $navbar-dropdown-item-hover-color: $scheme-invert;
 
         .linso__desc {
             margin-bottom: 20px;
-            padding-bottom: 5px;
-            border-bottom: 2px solid $primary;
+
+            span {
+                border-bottom: 2px solid $primary;
+                padding-bottom: 5px;
+            }
         }
 
         .linso__signup {
