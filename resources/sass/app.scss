@@ -21,6 +21,7 @@
 //
 
 $scheme-main: #111111;
+$scheme-invert: findColorInvert($scheme-main);
 
 
 $primary-invert: #ffffff;
@@ -73,7 +74,9 @@ $link-invert: $primary-invert;
 $link-focus-border: $primary;
 
 //Navbar
-$navbar-background-color: #00ff00;
+$navbar-dropdown-background-color: $scheme-main;
+$navbar-dropdown-border-top: 2px solid $primary;
+$navbar-dropdown-item-hover-color: $scheme-invert;
 
 // Import Bulma and Buefy styles
 @import "~bulma";

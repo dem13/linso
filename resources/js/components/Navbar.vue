@@ -13,14 +13,14 @@
                 Home
             </b-navbar-item>
 
-            <b-navbar-dropdown label="Projects">
-                <b-navbar-item href="/project/create">
-                    Create
-                </b-navbar-item>
-                <b-navbar-item href="/project">
-                    My
-                </b-navbar-item>
-            </b-navbar-dropdown>
+            <b-navbar-item href="/about">
+                About
+            </b-navbar-item>
+
+            <b-navbar-item href="/help">
+                Help
+            </b-navbar-item>
+
         </template>
 
         <template slot="end">
