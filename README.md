@@ -1,3 +1,3 @@
 # Linso
 
-Linso - create to help you develop and maintain your apps
+Linso - created to help you develop and maintain your apps
