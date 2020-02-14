@@ -7309,7 +7309,7 @@ a.list-item {
 }
 
 .navbar {
-    background-color: white;
+  background-color: white;
   min-height: 3.25rem;
   position: relative;
   z-index: 30;
@@ -8253,7 +8253,7 @@ a.navbar-item.is-active,
   }
 
   .navbar-menu {
-      background-color: white;
+    background-color: white;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
   }
@@ -8346,7 +8346,7 @@ a.navbar-item.is-active,
   .navbar.is-transparent .navbar-dropdown a.navbar-item:focus,
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: #111111;
-      color: #fff;
+    color: #fff;
   }
 
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
@@ -8377,7 +8377,7 @@ a.navbar-item.is-active,
   }
 
   .navbar-item.has-dropdown-up .navbar-dropdown {
-      border-bottom: 2px solid #de4c4a;
+    border-bottom: 2px solid #de4c4a;
     border-radius: 6px 6px 0 0;
     border-top: none;
     bottom: 100%;
@@ -8421,10 +8421,10 @@ a.navbar-item.is-active,
   }
 
   .navbar-dropdown {
-      background-color: #111111;
+    background-color: #111111;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-      border-top: 2px solid #de4c4a;
+    border-top: 2px solid #de4c4a;
     box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
     display: none;
     font-size: 0.875rem;
@@ -8447,7 +8447,7 @@ a.navbar-item.is-active,
   .navbar-dropdown a.navbar-item:focus,
   .navbar-dropdown a.navbar-item:hover {
     background-color: #111111;
-      color: #fff;
+    color: #fff;
   }
 
   .navbar-dropdown a.navbar-item.is-active {
@@ -12186,9 +12186,9 @@ label.panel-block:hover {
 }
 
 .footer {
-    background-color: #070707;
+  background-color: #070707;
   padding: 3rem 1.5rem 6rem;
-    color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .is-noscroll {
@@ -17308,25 +17308,25 @@ body,
 #app,
 .main,
 .main > .columns {
-    height: 100%;
+  height: 100%;
 }
 
 .content-section {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 footer {
-    border-top: 2px solid #de4c4a;
+  border-top: 2px solid #de4c4a;
 }
 
 .linso {
   text-align: center;
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .linso .linso__image img {
-    width: 70%;
-    max-width: 400px;
+  width: 70%;
+  max-width: 400px;
 }
 
 .linso .linso__title h1 {
@@ -17339,7 +17339,7 @@ footer {
 }
 
 .linso .linso__title .linso__desc span {
-    border-bottom: 2px solid #de4c4a;
+  border-bottom: 2px solid #de4c4a;
   padding-bottom: 5px;
 }
 
@@ -17353,6 +17353,6 @@ footer {
 }
 
 .content-section {
-    background: #070707;
+  background: #070707;
 }
 

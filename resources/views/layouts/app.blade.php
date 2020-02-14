@@ -13,6 +13,7 @@
     <script>
         const Laravel = {
             csrf: "{{ csrf_token() }}",
+            route: "{{ request()->route()->getName() }}"
         };
     </script>
 
