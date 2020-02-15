@@ -29,6 +29,7 @@ Vue.use(require('buefy'));
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('project-form', require('./components/Project/Form.vue').default);
 Vue.component('project-preview', require('./components/Project/Preview').default);
+Vue.component('project-list', require('./components/Project/List').default);
 Vue.component('navbar', require('./components/Navbar').default);
 Vue.component('login-form', require('./components/Auth/LoginForm').default);
 Vue.component('register-form', require('./components/Auth/RegisterForm').default);

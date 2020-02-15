@@ -50,14 +50,6 @@ class ProjectRepository
         return $user
             ->projects()
             ->orderBy('created_at', 'desc')
-            ->paginate($this->getPerPage());
-    }
-
-    /**
-     * @return int
-     */
-    private function getPerPage()
-    {
-        return 10;
+            ->paginate();
     }
 }

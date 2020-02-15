@@ -1,5 +1,5 @@
 <template>
-    <a class="box" href="#">
+    <a :href="'/project/' + id" class="box">
         <div class="media">
             <div class="media-left">
                 <figure class="image is-64x64">
@@ -22,11 +22,14 @@
     export default {
         name: "Preview",
         props: {
+            id: {
+                require: true
+            },
             name: {
                 required: true
             },
             desc: {
-                required: true
+                default: ''
             }
         }
     }
@@ -34,7 +37,6 @@
 
 <style scoped>
     img {
-        border: 1px solid #de4c4a;
         border-radius: 3px;
     }
 

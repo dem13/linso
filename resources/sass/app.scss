@@ -83,16 +83,30 @@ $navbar-dropdown-item-hover-color: $scheme-invert;
 $footer-background-color: $scheme-secondary;
 $footer-color: $text;
 
+//Pagination
+$pagination-color: $text-strong;
+$pagination-border-color: $primary;
+$pagination-disabled-background-color: $dark;
+$pagination-disabled-border-color: $primary;
+
 // Import Bulma and Buefy styles
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
-html, body, #app, .main, .main > .columns {
+html, body, #app {
     height: 100%;
 }
 
+.main {
+}
+
+.main > .columns {
+    min-height: 100vh;
+    align-items: stretch;
+}
+
 .content-section {
-    min-height: 100%;
+    background: $scheme-secondary;
 }
 
 footer {
@@ -134,8 +148,4 @@ footer {
             }
         }
     }
-}
-
-.content-section {
-    background: $scheme-secondary;
 }

@@ -8600,8 +8600,8 @@ a.navbar-item.is-active,
 .pagination-previous,
 .pagination-next,
 .pagination-link {
-  border-color: #dbdbdb;
-  color: #363636;
+    border-color: #de4c4a;
+    color: #ffffff;
   min-width: 2.25em;
 }
 
@@ -8627,8 +8627,8 @@ a.navbar-item.is-active,
 .pagination-previous[disabled],
 .pagination-next[disabled],
 .pagination-link[disabled] {
-  background-color: #dbdbdb;
-  border-color: #dbdbdb;
+    background-color: #363636;
+    border-color: #de4c4a;
   box-shadow: none;
   color: #7a7a7a;
   opacity: 0.5;
@@ -17305,14 +17305,17 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 html,
 body,
-#app,
-.main,
-.main > .columns {
+#app {
   height: 100%;
 }
 
+.main > .columns {
+    min-height: 100vh;
+    align-items: stretch;
+}
+
 .content-section {
-  min-height: 100%;
+    background: #070707;
 }
 
 footer {
@@ -17350,9 +17353,5 @@ footer {
 
 .linso .linso__title .linso__signup div {
   padding-right: 5px;
-}
-
-.content-section {
-  background: #070707;
 }
 
