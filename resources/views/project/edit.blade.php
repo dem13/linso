@@ -19,6 +19,7 @@
                     action="{{ route('project.update', ['project' => $project->id]) }}"
                     name="{{ old('name', $project->name) }}"
                     desc="{{ old('desc', $project->desc) }}"
+                    id="{{ $project->id  }}"
                 ></project-form>
             </div>
         </div>

@@ -13,7 +13,16 @@
                 <b-input name="desc" maxlength="5000" type="textarea" :value="desc"></b-input>
             </b-field>
 
-            <b-button native-type="submit" type="is-success">Save</b-button>
+
+            <b-button icon-left="plus-circle" native-type="submit" type="is-success" v-if="id === null">Create
+            </b-button>
+            <template v-else>
+                <b-button icon-left="content-save" native-type="submit" type="is-success">Save
+                </b-button>
+                <b-button :href="`/project/${id}`" class="project-form__show" icon-left="eye" tag="a" type="is-primary">
+                    Show
+                </b-button>
+            </template>
         </form>
     </div>
 </template>
@@ -35,10 +44,15 @@
             desc: {
                 default: ''
             },
+            id: {
+                default: null
+            }
         },
     }
 </script>
 
 <style scoped>
-
+    .project-form__show {
+        margin-left: 10px;
+    }
 </style>

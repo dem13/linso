@@ -54,6 +54,8 @@ $text-strong: #ffffff;
 
 $shadow: rgba(0, 0, 0,);
 
+$border: $primary;
+
 //Card
 $card-background-color: $scheme-main;
 $card-shadow: 0 0.5em 1em -0.125em rgba($shadow, 0.2), 0 0px 0 1px rgba($shadow, 0.1);
@@ -89,9 +91,17 @@ $pagination-border-color: $primary;
 $pagination-disabled-background-color: $dark;
 $pagination-disabled-border-color: $primary;
 
+//Tabs
+$tabs-boxed-link-active-background-color: $primary;
+$tabs-link-active-color: $text;
+
 // Import Bulma and Buefy styles
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
+
+* {
+    box-sizing: border-box;
+}
 
 html, body, #app {
     height: 100%;

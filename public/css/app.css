@@ -3648,7 +3648,7 @@ fieldset[disabled] .button {
 
 .content blockquote {
   background-color: #111111;
-  border-left: 5px solid #dbdbdb;
+  border-left: 5px solid #de4c4a;
   padding: 1.25em 1.5em;
 }
 
@@ -3738,7 +3738,7 @@ fieldset[disabled] .button {
 
 .content table td,
 .content table th {
-  border: 1px solid #dbdbdb;
+  border: 1px solid #de4c4a;
   border-width: 0 0 1px;
   padding: 0.5em 0.75em;
   vertical-align: top;
@@ -4055,7 +4055,7 @@ fieldset[disabled] .button {
 }
 
 .progress::-webkit-progress-bar {
-  background-color: #dbdbdb;
+  background-color: #de4c4a;
 }
 
 .progress::-webkit-progress-value {
@@ -4084,7 +4084,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-white:indeterminate {
-  background-image: linear-gradient(to right, white 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, white 30%, #de4c4a 30%);
 }
 
 .progress.is-black::-webkit-progress-value {
@@ -4100,7 +4100,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-black:indeterminate {
-  background-image: linear-gradient(to right, #0a0a0a 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #0a0a0a 30%, #de4c4a 30%);
 }
 
 .progress.is-light::-webkit-progress-value {
@@ -4116,7 +4116,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-light:indeterminate {
-  background-image: linear-gradient(to right, whitesmoke 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, whitesmoke 30%, #de4c4a 30%);
 }
 
 .progress.is-dark::-webkit-progress-value {
@@ -4132,7 +4132,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-dark:indeterminate {
-  background-image: linear-gradient(to right, #363636 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #363636 30%, #de4c4a 30%);
 }
 
 .progress.is-primary::-webkit-progress-value {
@@ -4148,7 +4148,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-primary:indeterminate {
-  background-image: linear-gradient(to right, #de4c4a 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #de4c4a 30%, #de4c4a 30%);
 }
 
 .progress.is-info::-webkit-progress-value {
@@ -4164,7 +4164,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-info:indeterminate {
-  background-image: linear-gradient(to right, #6cb2eb 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #6cb2eb 30%, #de4c4a 30%);
 }
 
 .progress.is-success::-webkit-progress-value {
@@ -4180,7 +4180,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-success:indeterminate {
-  background-image: linear-gradient(to right, #38c172 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #38c172 30%, #de4c4a 30%);
 }
 
 .progress.is-warning::-webkit-progress-value {
@@ -4196,7 +4196,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-warning:indeterminate {
-  background-image: linear-gradient(to right, #ffed4a 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #ffed4a 30%, #de4c4a 30%);
 }
 
 .progress.is-danger::-webkit-progress-value {
@@ -4212,7 +4212,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-danger:indeterminate {
-  background-image: linear-gradient(to right, #e3342f 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #e3342f 30%, #de4c4a 30%);
 }
 
 .progress.is-twitter::-webkit-progress-value {
@@ -4228,7 +4228,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-twitter:indeterminate {
-  background-image: linear-gradient(to right, #4099FF 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #4099FF 30%, #de4c4a 30%);
 }
 
 .progress:indeterminate {
@@ -4240,8 +4240,8 @@ fieldset[disabled] .button {
           animation-name: moveIndeterminate;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  background-color: #dbdbdb;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.87) 30%, #dbdbdb 30%);
+  background-color: #de4c4a;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.87) 30%, #de4c4a 30%);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -6011,7 +6011,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .file-label:hover .file-name {
-  border-color: #d5d5d5;
+  border-color: #dc413f;
 }
 
 .file-label:active .file-cta {
@@ -6020,7 +6020,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .file-label:active .file-name {
-  border-color: #cfcfcf;
+  border-color: #da3734;
 }
 
 .file-input {
@@ -6035,7 +6035,7 @@ fieldset[disabled] .select select:hover {
 
 .file-cta,
 .file-name {
-  border-color: #dbdbdb;
+  border-color: #de4c4a;
   border-radius: 4px;
   font-size: 1em;
   padding-left: 1em;
@@ -6049,7 +6049,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .file-name {
-  border-color: #dbdbdb;
+  border-color: #de4c4a;
   border-style: solid;
   border-width: 1px 1px 1px 0;
   display: block;
@@ -6618,7 +6618,7 @@ fieldset[disabled] .select select:hover {
 
 .card-footer {
   background-color: transparent;
-  border-top: 1px solid #dbdbdb;
+  border-top: 1px solid #de4c4a;
   align-items: stretch;
   display: flex;
 }
@@ -6634,7 +6634,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .card-footer-item:not(:last-child) {
-  border-right: 1px solid #dbdbdb;
+  border-right: 1px solid #de4c4a;
 }
 
 .card .media:not(:last-child) {
@@ -6716,7 +6716,7 @@ button.dropdown-item.is-active {
 }
 
 .dropdown-divider {
-  background-color: #dbdbdb;
+  background-color: #de4c4a;
   border: none;
   display: block;
   height: 1px;
@@ -6862,7 +6862,7 @@ button.dropdown-item.is-active {
 }
 
 .list-item:not(:last-child) {
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid #de4c4a;
 }
 
 .list-item.is-active {
@@ -6886,7 +6886,7 @@ a.list-item {
 }
 
 .media .media {
-  border-top: 1px solid rgba(219, 219, 219, 0.5);
+  border-top: 1px solid rgba(222, 76, 74, 0.5);
   display: flex;
   padding-top: 0.75rem;
 }
@@ -6905,7 +6905,7 @@ a.list-item {
 }
 
 .media + .media {
-  border-top: 1px solid rgba(219, 219, 219, 0.5);
+  border-top: 1px solid rgba(222, 76, 74, 0.5);
   margin-top: 1rem;
   padding-top: 1rem;
 }
@@ -6981,7 +6981,7 @@ a.list-item {
 }
 
 .menu-list li ul {
-  border-left: 1px solid #dbdbdb;
+  border-left: 1px solid #de4c4a;
   margin: 0.75em;
   padding-left: 0.75em;
 }
@@ -7194,7 +7194,7 @@ a.list-item {
 }
 
 .message-body {
-  border-color: #dbdbdb;
+  border-color: #de4c4a;
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
@@ -7276,7 +7276,7 @@ a.list-item {
 }
 
 .modal-card-head {
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid #de4c4a;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -7292,7 +7292,7 @@ a.list-item {
 .modal-card-foot {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  border-top: 1px solid #dbdbdb;
+  border-top: 1px solid #de4c4a;
 }
 
 .modal-card-foot .button:not(:last-child) {
@@ -8600,8 +8600,8 @@ a.navbar-item.is-active,
 .pagination-previous,
 .pagination-next,
 .pagination-link {
-    border-color: #de4c4a;
-    color: #ffffff;
+  border-color: #de4c4a;
+  color: #ffffff;
   min-width: 2.25em;
 }
 
@@ -8627,8 +8627,8 @@ a.navbar-item.is-active,
 .pagination-previous[disabled],
 .pagination-next[disabled],
 .pagination-link[disabled] {
-    background-color: #363636;
-    border-color: #de4c4a;
+  background-color: #363636;
+  border-color: #de4c4a;
   box-shadow: none;
   color: #7a7a7a;
   opacity: 0.5;
@@ -8731,15 +8731,15 @@ a.navbar-item.is-active,
 .panel-heading,
 .panel-tabs,
 .panel-block {
-  border-bottom: 1px solid #dbdbdb;
-  border-left: 1px solid #dbdbdb;
-  border-right: 1px solid #dbdbdb;
+  border-bottom: 1px solid #de4c4a;
+  border-left: 1px solid #de4c4a;
+  border-right: 1px solid #de4c4a;
 }
 
 .panel-heading:first-child,
 .panel-tabs:first-child,
 .panel-block:first-child {
-  border-top: 1px solid #dbdbdb;
+  border-top: 1px solid #de4c4a;
 }
 
 .panel-heading {
@@ -8760,7 +8760,7 @@ a.navbar-item.is-active,
 }
 
 .panel-tabs a {
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid #de4c4a;
   margin-bottom: -1px;
   padding: 0.5em;
 }
@@ -8849,7 +8849,7 @@ label.panel-block:hover {
 
 .tabs a {
   align-items: center;
-  border-bottom-color: #dbdbdb;
+  border-bottom-color: #de4c4a;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   color: rgba(255, 255, 255, 0.87);
@@ -8871,12 +8871,12 @@ label.panel-block:hover {
 
 .tabs li.is-active a {
   border-bottom-color: #de4c4a;
-  color: #de4c4a;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .tabs ul {
   align-items: center;
-  border-bottom-color: #dbdbdb;
+  border-bottom-color: #de4c4a;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   display: flex;
@@ -8924,12 +8924,12 @@ label.panel-block:hover {
 
 .tabs.is-boxed a:hover {
   background-color: #111111;
-  border-bottom-color: #dbdbdb;
+  border-bottom-color: #de4c4a;
 }
 
 .tabs.is-boxed li.is-active a {
-  background-color: white;
-  border-color: #dbdbdb;
+  background-color: #de4c4a;
+  border-color: #de4c4a;
   border-bottom-color: transparent !important;
 }
 
@@ -8939,7 +8939,7 @@ label.panel-block:hover {
 }
 
 .tabs.is-toggle a {
-  border-color: #dbdbdb;
+  border-color: #de4c4a;
   border-style: solid;
   border-width: 1px;
   margin-bottom: 0;
@@ -16522,12 +16522,12 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-tabs.is-vertical > .tabs.is-boxed li a {
   border-bottom-color: transparent !important;
-  border-right-color: #dbdbdb !important;
+  border-right-color: #de4c4a !important;
   border-radius: 4px 0 0 4px;
 }
 
 .b-tabs.is-vertical > .tabs.is-boxed li.is-active a {
-  border-bottom-color: #dbdbdb !important;
+  border-bottom-color: #de4c4a !important;
   border-right-color: transparent !important;
 }
 
@@ -16567,13 +16567,13 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 .b-tabs.is-vertical.is-right > .tabs.is-boxed li a {
   border-bottom-color: transparent !important;
   border-right-color: transparent !important;
-  border-left-color: #dbdbdb !important;
+  border-left-color: #de4c4a !important;
   border-radius: 0 4px 4px 0;
 }
 
 .b-tabs.is-vertical.is-right > .tabs.is-boxed li.is-active a {
-  border-bottom-color: #dbdbdb !important;
-  border-right-color: #dbdbdb !important;
+  border-bottom-color: #de4c4a !important;
+  border-right-color: #de4c4a !important;
   border-left-color: transparent !important;
 }
 
@@ -17303,6 +17303,10 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body,
 #app {
@@ -17310,12 +17314,12 @@ body,
 }
 
 .main > .columns {
-    min-height: 100vh;
-    align-items: stretch;
+  min-height: 100vh;
+  align-items: stretch;
 }
 
 .content-section {
-    background: #070707;
+  background: #070707;
 }
 
 footer {
