@@ -42,6 +42,17 @@ class ProjectRepository
     }
 
     /**
+     * Find project
+     *
+     * @param $id
+     * @return
+     */
+    public function find($id)
+    {
+        return Project::find($id);
+    }
+
+    /**
      * @param User $user
      * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
      */
