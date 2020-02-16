@@ -13,7 +13,7 @@
             </b-tab-item>
 
             <b-tab-item label="Links">
-                <h1>Links</h1>
+                <project-link-list :id="id" :links="links"></project-link-list>
             </b-tab-item>
 
             <b-tab-item label="Description">
@@ -32,6 +32,12 @@
             id: String,
             name: String,
             desc: String,
+            links: {
+                type: Array,
+                default: function () {
+                    return [];
+                }
+            }
         },
         data: function () {
             return {}
@@ -44,6 +50,7 @@
         color: #de4c4a;
         font-size: 24px;
         margin-bottom: 20px;
+        word-break: break-all;
     }
 
     .project__edit {

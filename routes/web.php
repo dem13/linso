@@ -24,3 +24,5 @@ Route::get('/home', 'DashboardController@index')->name('home');
 Route::middleware('auth')->group(function () {
     Route::resource('project', 'ProjectController');
 });
+
+Route::post('/project/{project}/link', 'ProjectAjaxController@addLink');

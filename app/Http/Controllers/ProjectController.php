@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ProjectRequest;
 use App\Models\Project;
+use App\Repositories\LinkRepository;
 use App\Repositories\ProjectRepository;
 use Illuminate\Http\Response;
 
@@ -15,13 +16,20 @@ class ProjectController extends Controller
     private $projectRepo;
 
     /**
+     * @var LinkRepository
+     */
+    private $linkRepo;
+
+    /**
      * ProjectController constructor.
      * @param ProjectRepository $projectRepo
+     * @param LinkRepository $linkRepo
      */
-    public function __construct(ProjectRepository $projectRepo)
+    public function __construct(ProjectRepository $projectRepo, \App\Repositories\LinkRepository $linkRepo)
     {
 
         $this->projectRepo = $projectRepo;
+        $this->linkRepo = $linkRepo;
     }
 
     /**
@@ -66,7 +74,9 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        return view('project.show', compact('project'));
+        $links = $this->linkRepo->getByProject($project);
+
+        return view('project.show', compact('project', 'links'));
     }
 
     /**
