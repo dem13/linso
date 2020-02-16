@@ -14,4 +14,9 @@ class Project extends Model
     {
         return $this->belongsTo('App\User');
     }
+
+    public function links()
+    {
+        return $this->hasMany('App\Models\Link');
+    }
 }
