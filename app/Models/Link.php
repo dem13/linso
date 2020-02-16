@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Link extends Model
 {
-    protected $fillable = ['title', 'link'];
+    protected $fillable = ['title', 'url'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo

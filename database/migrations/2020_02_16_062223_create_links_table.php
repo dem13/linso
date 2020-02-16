@@ -17,7 +17,7 @@ class CreateLinksTable extends Migration
             $table->bigIncrements('id');
 
             $table->string('title', 100);
-            $table->text('link');
+            $table->text('url');
 
             $table->unsignedBigInteger('project_id');
 
