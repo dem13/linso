@@ -17327,6 +17327,7 @@ body,
 }
 
 footer {
+    position: relative;
   border-top: 2px solid #de4c4a;
 }
 
