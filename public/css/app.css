@@ -17313,6 +17313,10 @@ body,
   height: 100%;
 }
 
+.main {
+    min-height: 100vh;
+}
+
 .main > .columns {
   min-height: 100vh;
   align-items: stretch;
