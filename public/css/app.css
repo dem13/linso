@@ -17314,7 +17314,7 @@ body,
 }
 
 .main {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .main > .columns {
@@ -17327,7 +17327,7 @@ body,
 }
 
 footer {
-    position: relative;
+  position: relative;
   border-top: 2px solid #de4c4a;
 }
 

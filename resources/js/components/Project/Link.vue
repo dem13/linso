@@ -18,7 +18,14 @@
                 </div>
             </div>
             <div class="media-right">
-                <button class="delete"></button>
+                <b-field>
+                    <p class="control">
+                        <b-button icon-right="circle-edit-outline" size="is-small" type="is-warning"></b-button>
+                    </p>
+                    <p class="control">
+                        <b-button icon-right="delete" size="is-small" type="is-danger"></b-button>
+                    </p>
+                </b-field>
             </div>
         </article>
     </div>
@@ -32,5 +39,13 @@
 </script>
 
 <style scoped>
+    .project-link {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
 
+    .project-link:first-child {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
 </style>
