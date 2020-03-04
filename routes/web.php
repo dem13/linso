@@ -22,7 +22,7 @@ Auth::routes();
 Route::get('/home', 'DashboardController@index')->name('home');
 
 Route::middleware('auth')->group(function () {
+    Route::post('/project/{project}/link', 'ProjectAjaxController@addLink');
     Route::resource('project', 'ProjectController');
+    Route::resource('link', 'LinkController');
 });
-
-Route::post('/project/{project}/link', 'ProjectAjaxController@addLink');

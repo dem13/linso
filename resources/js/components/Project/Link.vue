@@ -23,7 +23,8 @@
                         <b-button icon-right="circle-edit-outline" size="is-small" type="is-warning"></b-button>
                     </p>
                     <p class="control">
-                        <b-button icon-right="delete" size="is-small" type="is-danger"></b-button>
+                        <b-button :loading="isDeleting" @click="deleteLink" icon-right="delete" size="is-small"
+                                  type="is-danger"></b-button>
                     </p>
                 </b-field>
             </div>
@@ -34,7 +35,34 @@
 <script>
     export default {
         name: "Link",
-        props: ['id', 'title', 'url']
+        props: ['id', 'title', 'url'],
+        data() {
+            return {
+                isDeleting: false,
+            }
+        },
+        methods: {
+            deleteLink() {
+                this.isDeleting = true;
+
+                axios.delete('/link/' + this.id)
+                    .then((res) => {
+                        if (!res.data.ok) {
+                            this.$buefy.toast.open({
+                                duration: 5000,
+                                message: 'Unexpected error',
+                                position: 'is-top',
+                                type: 'is-danger'
+                            });
+                        }
+
+                        this.$emit('delete');
+                    })
+                    .finally(() => {
+                        this.isDeleting = false;
+                    })
+            }
+        }
     }
 </script>
 

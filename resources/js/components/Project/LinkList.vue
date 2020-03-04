@@ -21,13 +21,15 @@
             </b-field>
         </div>
         <div class="project-link-list__list">
-            <project-link
-                :id="link.id"
-                :key="link.id"
-                :title="link.title"
-                :url="link.url"
-                v-for="link in links"
-            ></project-link>
+            <template v-for="(link, i) in links">
+                <project-link
+                    :id="link.id"
+                    :key="link.id"
+                    :title="link.title"
+                    :url="link.url"
+                    @delete="deleteLink(i)"
+                ></project-link>
+            </template>
         </div>
     </div>
 </template>
@@ -36,7 +38,7 @@
     export default {
         name: "LinkList",
         props: {
-            links: {
+            initialLinks: {
                 default: function () {
                     return [];
                 }
@@ -47,6 +49,7 @@
         },
         data: function () {
             return {
+                links: this.initialLinks,
                 title: '',
                 url: '',
                 isLoading: false,
@@ -68,7 +71,6 @@
                 this.isLoading = true;
 
                 axios.post(`${window.location.origin}/project/${this.id}/link`, {
-                    _token: Laravel.csrf,
                     title: this.title,
                     url: this.url
                 }).then((res) => {
@@ -93,6 +95,9 @@
                 }).finally(() => {
                     this.isLoading = false;
                 });
+            },
+            deleteLink(linkIndex) {
+                this.links.splice(linkIndex, 1);
             }
         }
     }

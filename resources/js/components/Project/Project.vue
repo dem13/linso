@@ -13,7 +13,7 @@
             </b-tab-item>
 
             <b-tab-item label="Links">
-                <project-link-list :id="id" :links="links"></project-link-list>
+                <project-link-list :id="id" :initialLinks="links"></project-link-list>
             </b-tab-item>
 
             <b-tab-item label="Description">
